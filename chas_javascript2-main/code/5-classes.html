@@ -1,0 +1,38 @@
+<script>
+
+  class person {
+    constructor(myName, myAge) {
+      this.myName = myName;
+      this.myAge = myAge;
+    }
+    user() {
+      return this.myName + " " + this.myAge;
+    }
+  }
+
+  const student1 = new person("Fredrika", 27)
+
+  console.log(student1.user())
+
+
+
+  // CREATE CLASS DOGS
+
+
+  class dogs {
+    constructor(breed, name) {
+      this.breed = breed;
+      this.name = name;
+    }
+    createDog() {
+      return this.breed + " " + this.name;
+    }
+  }
+
+  const dog1 = new dogs("Poodle", "Bill")
+
+  console.log(dog1.createDog())
+
+</script>
+
+<p>Open the console in the browser to see the output of this script.</p>
